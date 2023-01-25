@@ -1,0 +1,113 @@
+body{
+    display:grid;
+    place-items:center;
+    background-image:url("./bck1.svg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+#glasscont{
+    min-width:80vw;
+    max-width:90vw;
+    min-height:70%;
+    border:1px solid white;
+    margin-top:60%;
+    width:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-items:center;
+    background:#55ff977a;
+    -webkit-backdrop-filter:blur(13);
+    backdrop-filter:blur(5);
+    padding:20px;
+    padding-bottom:10px;
+    border-radius:20px;
+    box-shadow:0 0 10px #000000c7;
+}
+#nuemorphcont{
+    /*border:2px solid red;*/
+    border-radius:10px;
+    background:#55ff97;
+    display:flex;
+    flex-direction:column;
+    box-shadow:0 0 10px #000000c7;
+    padding:20px;
+    margin:auto;
+}
+#greetingscont{
+    padding:10px;
+    margin:none;
+    margin-bottom:40px;
+}
+#time{
+    text-align:center;
+    font-weight:800;
+    font-size:25px;
+    margin:auto;
+}
+#clockcont{
+    display:flex;
+    margin:auto;
+    margin-right:0px;
+}
+#timeseperator{
+    margin:auto;
+    padding:none;
+    max-height:100px;
+}
+#colon{
+    margin:auto;
+    font-size:100px;
+    font-weight:700;
+}
+#secondsnumber{
+    font-size:30px;
+    margin:60px 0px 0px 5px;
+    min-width:30px;
+    font-weight:700;
+}
+#datecont{
+    display:flex;
+}
+#date{
+    font-size:18px;
+    text-align:center;
+    background:#eeff9556;
+    -webkit-backdrop-filter:blur(5px);
+    backdrop-filter:blur(5px);
+    padding:5px;
+    box-shadow:0 0 10px black;
+    font-weight:600;
+    max-width:100px;
+    border-radius:5px;
+    margin:auto;
+    margin-top:1rem;
+    margin-right:40%;
+}
+#day{
+    font-size:20px;
+    font-weight:600;
+}
+#quote{
+    
+}
+#date:active{
+    box-shadow:0px 0px 0px 0px;
+    border:1px solid black;
+    -ms-transform: scale(2,3);
+}
+/* styling of only hour and seconds main paragraphs */
+.clockvalue{
+    margin:0 5px 10px 5px;
+    font-size:100px;
+    font-weight:700;
+    background:#eeff9556;
+    box-shadow:0 0 10px #000000c7;
+    min-width:110px;
+    text-align:center;
+    border-radius:30px;
+}
+/* change color in respect to time */
+.timecolor{
+}
