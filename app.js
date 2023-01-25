@@ -124,4 +124,7 @@ function easteregg(){
 audio.play()
     
 }
+function fb(){
+    window.location.href="https://facebook.com/dhela.frank"
+}
 
