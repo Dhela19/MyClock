@@ -98,7 +98,7 @@ body{
     -ms-transform: scale(2,3);
 }
 #icon{
-    margin-top:20px;
+    margin-top:1rem;
 }
 /* styling of only hour and seconds main paragraphs */
 .clockvalue{
