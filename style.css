@@ -11,7 +11,7 @@ body{
     max-width:90vw;
     min-height:70%;
     border:1px solid white;
-    margin-top:60%;
+    margin-top:40%;
     width:auto;
     display:flex;
     flex-direction:column;
@@ -96,6 +96,9 @@ body{
     box-shadow:0px 0px 0px 0px;
     border:1px solid black;
     -ms-transform: scale(2,3);
+}
+#icon{
+    margin-top:10px;
 }
 /* styling of only hour and seconds main paragraphs */
 .clockvalue{
