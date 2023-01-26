@@ -121,7 +121,6 @@ function easteregg(){
     window.alert(("you found an easteregg 😃 Wait for 10s"))
     document.getElementById("day").innerHTML="Playing"
     var audio = new Audio("./bck1.mp3")
-function audio(){
 if (audio.paused) {
     audio.play();
     dt.innerHTML = "Pause";
