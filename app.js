@@ -34,7 +34,7 @@ var all={dt, grt1, grt2, min,}
         break;
     }
     let moment=(time.getHours());
-    if (moment< 10)
+    if (moment< 9)
     {
         grt1.innerHTML="Good Morning 🌄";
         //document.style="background:#7aff009c"
@@ -48,7 +48,7 @@ var all={dt, grt1, grt2, min,}
         nue.style="background:#556dff";
         gls.style="background:#556dff7a"  
     }
-    else if(moment<12)
+    else if(moment<11)
     {
         grt1.innerHTML="Good Day 🌅"
         dt.style="color:#d5ffdf; box-shadow:0 0 10px #d5ffdf";
@@ -61,7 +61,7 @@ var all={dt, grt1, grt2, min,}
         nue.style="background:#009640";
         gls.style="background:#0096407a"
     }
-    else if(moment<16)
+    else if(moment<17)
     {
       grt1.innerHTML="Good Afternoon 🏜️";
       //document.style="background:teal"
@@ -75,7 +75,7 @@ var all={dt, grt1, grt2, min,}
      nue.style="background:#efec3c";
      gls.style="background:#fffc407a"
     }
-    else if(moment<20)
+    else if(moment<21)
     {
       grt1.innerHTML="Good Evening 🌆"  
       dt.style="color:#ff7300; box-shadow:0 0 10px #ff7300"
@@ -86,7 +86,7 @@ var all={dt, grt1, grt2, min,}
      s.style="color:#ff7300; text-shadow:0 0 10px #ff7300";
      cln.style="color:#ff7300";
     }
-    else if(moment <23)
+    else if(moment <24)
     {
         grt1.innerHTML="Good Night 🌃"
         dt.style="color:#eaffff; box-shadow:0 0 10px #eaffff"
