@@ -123,7 +123,6 @@ function easteregg(){
     var audio = new Audio("./bck1.mp3")
 if (audio.paused) {
     audio.play();
-    dt.innerHTML = "Pause";
   } else {
     audio.pause();
     return;
