@@ -121,8 +121,14 @@ function easteregg(){
     window.alert(("you found an easteregg 😃 Wait for 10s"))
     document.getElementById("day").innerHTML="Playing"
     var audio = new Audio("./bck1.mp3")
-audio.play()
-    
+function audio(){
+if (audio.paused) {
+    audio.play();
+    dt.innerHTML = "Pause";
+  } else {
+    audio.pause();
+    return;
+  }
 }
 function fb(){
     window.location.href="https://facebook.com/dhela.frank"
