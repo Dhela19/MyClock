@@ -122,11 +122,10 @@ function easteregg(){
     document.getElementById("day").innerHTML="Playing"
     var audio = new Audio("./bck1.mp3")
 if (audio.paused) {
-    audio.play();
-    dt.innerHTML = "Pause";
-  } else {
-    audio.pause();
     return;
+  } else {
+    audio.play();
+    dt.innerHTML="Pause"
   }
 }
 function fb(){
